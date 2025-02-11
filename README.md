@@ -1,2 +1,2 @@
 # code1
-fib
+fib series recursive and non recusive method
