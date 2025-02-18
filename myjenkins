@@ -8,16 +8,8 @@ pipeline {
                 publishHTML{[publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])]}
             }
         }
-         stage('Test') {
-            steps {
-                echo 'testing is running'
-            }
-        }
-         stage('deploy') {
-            steps {
-                echo 'deploying is running'
-                bat'heloo my friend'
-            }
-        }
+        
+        
+    
     }
 }
